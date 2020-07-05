@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>RETURN</title>
+
+<style>
+   
+h1{
+ font-family: Sans-serif; 
+ font-size: 35px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: black;
+ text-align: center; 
+ text-decoration: underline
+}
+
+table{
+ font-family: verdana; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #f4c430 0%, #ff99cc 100%);  
+ border-collapse: collapse; 
+ border: 2px solid #000000;
+ border-style: dashed;
+  
+
+}
+img{
+	padding-top: 10px;
+	padding-left: 650px;
+	padding-bottom: 60px;
+}
+table.inner{
+ border: 5px;
+}
+
+input[type=text], input[type=email], input[type=number]{
+ width: 50%;
+ padding: 6px 12px;
+ margin: 20px 0;
+ box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+
+body {
+	background-color:lightblue;
+ 	background-repeat: no-repeat;
+ 	background-size: 20% 50%;
+}
+
+
+
+</style>
+
+</head>
+<body>
+<h1>BOOK RETURN</h1>
+	<img src="return.png">
+	<form action="return.php" method="POST">
+<table align="center" cellpadding = "10">
+<tr>
+<td>Member ID :</td>
+<td><input name="id" type="text" maxlength="50" placeholder="Enter The Member ID" />
+(Max 50 Characters Allowed)
+</td>
+</tr>
+<tr>
+<td>Book ID :</td>
+<td><input name="bid" type="bookid" maxlength="100" placeholder=" Enter Book Id"/></td>
+</tr>
+<tr>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input name="return" type="submit" value="Submit">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

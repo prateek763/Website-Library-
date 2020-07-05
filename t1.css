@@ -1,0 +1,24 @@
+.content{
+	text-align: center;
+	padding-top: 20%;
+}
+h1{
+	font-size: 40px;
+}
+h3{
+	font-size: 40px;
+}
+body{
+	background-position: center;
+	font-family: Lato;
+	color: white;
+}
+hr{
+	color: white;
+	width: 100;
+	border-top: :1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+button{
+	color:black;
+}
