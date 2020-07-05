@@ -1,0 +1,62 @@
+.b{
+	width: 45%;
+	height:400px;
+	margin-top: 150px;
+	margin-left: 300px;
+}
+h2{
+	font-family: Lato;
+	padding-left: 120px;
+	padding-top: 50px;
+	font-size: 60px;
+	position: relative;
+	animation: mymove1 1s;
+}
+hr{
+	color: grey;
+	width: 100;
+	border-top: :2px solid #f8f8f8;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+body{
+	font-family: Lato;
+	color: white;
+}
+input{
+	margin-left: 50px;
+	font-size: 20px;
+	position: relative;
+	animation: mymove2 1s linear;
+}
+label{
+	margin-left: 40px;
+	font-size: 30px;
+	position: relative;
+	animation: mymove3 1s linear;
+}
+p{
+	margin-top: 40px;
+}
+#login{
+	margin-left: 170px;
+	width: 150px;
+	height:40px;
+	position: relative;
+	animation: mymove4 1s;
+}
+@keyframes mymove1 {
+  0%   {top: -400px;}
+  100% {top:0px;}
+}
+@keyframes mymove2 {
+  0%   {right: -200%;}
+  100% {right:0;}
+}
+@keyframes mymove3 {
+  0%   {left: -200%;}
+  100% {left:0;}
+}
+@keyframes mymove4 {
+  0%   {bottom: -500px;}
+  100% {bottom: 0px;}
+}

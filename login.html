@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Details</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body background="log.jpg">
+	<div class="container">
+		<div class="b">
+			<h2><i> User Login</i></h2>
+			<hr>
+			<form action="dbconn.php" method="POST">
+				<label for="user">Member ID:    </label>
+				<input name="user" id="user" type="text" name="username" placeholder="username">
+				<p></p>
+				<p></p>
+				<p class="p">
+					<label for="pass">Password:    </label>
+					<input name="pass" id="pass" type="password" name="password" placeholder="password">
+				</p>
+				<p>
+					<input type="submit" name="login" id="login" value="Login">
+				</p>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
