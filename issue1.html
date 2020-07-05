@@ -1,0 +1,162 @@
+<html>
+<head>
+<title>ISSUE</title>
+
+<style>
+   
+h2{
+ font-family: Sans-serif; 
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: black;
+ text-align: center; 
+ text-decoration: underline
+}
+
+table{
+ font-family: verdana; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #f4c430 0%, #ff99cc 100%);  
+ border-collapse: collapse; 
+ border: 2px solid #000000;
+ border-style: dashed;
+  
+
+}
+table.inner{
+ border: 5px
+}
+
+input[type=text], input[type=email], input[type=number]{
+ width: 50%;
+ padding: 6px 12px;
+ margin: 20px 0;
+ box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+
+body {
+  background-image: url("issue1.jpg");
+  background-repeat: no-repeat;
+ background-size: 30% 50%;
+}
+
+
+
+</style>
+
+</head>
+<body>
+<h2>BOOK ISSUE</h3>
+<table align="center" cellpadding = "10">
+<tr>
+<td>Student's Name</td>
+<td><input type="text" name="Student'sName" maxlength="50" placeholder="Enter your name" />
+(Max 50 Characters Allowed)
+</td>
+</tr>
+<tr>
+<td>Book Name</td>
+<td><input type="text" name="BookName" maxlength="50" placeholder="Enter Book name "/>
+(Max 50 Characters Allowed)
+</td>
+</tr>
+<tr>
+<td>Book ID</td>
+<td><input type="bookid" name="BookID" maxlength="100" placeholder=" Enter Book Id"/></td>
+</tr>
+
+<tr>
+<td>Student's Mobile No.</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10" placeholder="Enter your contact number"/>
+(10 Digits Allowed)
+</td>
+</tr>
+<tr>
+<td>Due Date</td>
+<td>
+<select name="DueDate" id="DueDate">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select name="DueMonth" id="DueMonth">
+<option value="-1">Month:</option>
+<option value="January">Jan(1)</option>
+<option value="February">Feb(2)</option>
+<option value="March">Mar(3)</option>
+<option value="April">Apr(4)</option>
+<option value="May">May(5)</option>
+<option value="June">Jun(6)</option>
+<option value="July">Jul(7)</option>
+<option value="August">Aug(8)</option>
+<option value="September">Sep(9)</option>
+<option value="October">Oct(10)</option>
+<option value="November">Nov(11)</option>
+<option value="December">Dec(12)</option>
+</select>
+<select name="DueYear" id="DueYear">
+<option value="-1">Year:</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td>Student's Address<br /><br /><br /></td>
+<td><textarea name="Address" rows="5" cols="50"></textarea></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

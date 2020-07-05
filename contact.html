@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Support</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+	<div class="container">
+		<h3 id="head"><i class="fa fa-book" aria-hidden="true"style="padding-right:10px; "></i><i>Prateek Library</i></h3>
+		<h3 class="t"><i>The World's Largest Knowledge Stadium</i></h3>
+		<div class="b">
+			<form  action="dbconn.php" method="POST" >
+				<h2><i> Contact Support</i></h2>
+				<hr>
+				<p>
+			    	<label for="id">Member ID:</label>
+			    	<input name="id" id="id" type="text" placeholder="Enter unique username" required="not to be left blank">
+				</p>
+				<p><h5>Topic:
+						<select name="topic" id="gender">
+							<option>Select</option>
+							<option>Issue</option>
+							<option>Return</option>
+							<option>Others</option>
+						</select>
+				</h5>
+				</p>
+				<p>
+			    	<label for="pr" id="pr1">Problem:</label>
+			    	<textarea name="prob" id="pr" rows="4" cols="50" placeholder="Enter Your Problem Here" required="please fill it">
+					</textarea>
+				</p>
+				<input type="submit" name="cont" id="button" value="Submit">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+.b{
+	background-color: #f702ca;
+	width: 60%;
+	height:900px;
+	margin-top: 20px;
+	margin-left: 220px;
+}
+#head{
+	font-family: Lato;
+	padding-left: 430px;
+	font-size:30px;
+	padding-top: 30px;
+}
+h2{
+	font-family: Lato;
+	padding-left: 220px;
+	padding-top: 25px;
+	font-size: 60px;
+	position: relative;
+	animation: mymove1 1s;
+}
+h3{
+	font-family: Lato;
+	padding-left: 40px;
+	font-size:25px;
+	padding-top: 30px;
+}
+.ge{
+	margin-left: 10px;
+}
+.t{
+	font-size: 30px;
+	padding-left: 310px;
+	padding-top: 10px;
+}
+hr{
+	color: grey;
+	width: 100;
+	border-top: :2px solid #f8f8f8;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+body{
+	font-family: Lato;
+	color: white;
+	background: linear-gradient(to right, #fc0820, #6000fa);
+}
+input{
+	margin-left: 50px;
+	font-size: 17px;
+	position: relative;
+	animation: mymove2 1s linear;
+}
+label{
+	margin-left: 40px;
+	font-size: 30px;
+	position: relative;
+	animation: mymove3 1s linear;
+}
+p{
+	margin-top: 40px;
+}
+#button{ 
+	margin-left: 250px;
+	width: 150px;
+	height:40px;
+	position: relative;
+	animation: mymove4 1s;
+}
+h5{
+	font-family: Lato;
+	font-size: 30px;
+	margin-left: 40px;
+}
+select{
+	font-family: Lato;
+	font-size: 20px;
+	margin-left: 10px;
+}

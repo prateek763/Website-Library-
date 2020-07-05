@@ -1,0 +1,70 @@
+.b{
+	background-color:rgba(128,128,128,0.2);
+	width: 50%;
+	height:500px;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+.t{
+	font-size: 30px;
+	padding-left: 310px;
+	padding-top: 10px;
+}
+h2{
+	font-family: Baloo;
+	padding-left: 140px;
+	padding-top: 30px;
+	font-size: 60px;
+	position: relative;
+	animation: mymove1 1s;
+}
+h3{
+	font-family: Baloo;
+	padding-left: 350px;
+	font-size:40px;
+	padding-top: 30px;
+}
+hr{
+	color: grey;
+	width: 100;
+	border-top: :2px solid #f8f8f8;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+body{
+	font-family: Baloo;
+	color: white;
+	background: linear-gradient(to right, #00ff3c, #fa6305);
+}
+input{
+	margin-left: 50px;
+	font-size: 17px;
+	position: relative;
+	animation: mymove2 1s linear;
+}
+label{
+	margin-left: 40px;
+	font-size: 30px;
+	position: relative;
+	animation: mymove3 1s linear;
+}
+p{
+	margin-top: 40px;
+}
+#issue{ 
+	margin-left: 200px;
+	width: 150px;
+	height:40px;
+	position: relative;
+	animation: mymove4 1s;
+	font-size: 25px;
+}
+h5{
+	font-family: Baloo;
+	font-size: 30px;
+	margin-left: 40px;
+}
+select{
+	font-family: Baloo;
+	font-size: 20px;
+	margin-left: 10px;
+}
